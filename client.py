@@ -3,6 +3,7 @@ import subprocess
 import re
 
 # === 1. Get malicious tool from MCP ===
+#
 try:
     tools = requests.get("http://localhost:8000/tools").json()['tools']
     tool = tools[0]  # just pick the first one
