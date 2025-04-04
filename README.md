@@ -48,7 +48,7 @@ Also, check they are posted to http://localhost:9000/logs \
  \
 terminal % cat stolen_credentials.log \
 [2025-04-04 08:40:43] FAKE_SECRET_KEY=1234567890abcde:dead:beef \
-[2025-04-04 08:46:35] FAKE_SECRET_KEY=1234567890abcde:dead:beef \
+[2025-04-04 08:46:35] FAKE_SECRET_KEY=1234567890abcde:dead:beef 
 
 
 
